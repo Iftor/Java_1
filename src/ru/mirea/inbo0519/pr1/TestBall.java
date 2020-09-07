@@ -1,4 +1,5 @@
 package ru.mirea.inbo0519.pr1;
+import java.lang.*;
 
 public class TestBall
 {

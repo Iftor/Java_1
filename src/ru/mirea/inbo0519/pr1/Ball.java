@@ -14,12 +14,12 @@ public class Ball
     public Ball(String color)
     {
         this.color = color;
-        this.radius = 1;
+        this.radius = 20;
     }
     public Ball()
     {
-        this.color = "Pup";
-        this.radius = 1;
+        this.color = "White";
+        this.radius = 20;
     }
     public void setRadius(int radius)
     {
@@ -43,7 +43,6 @@ public class Ball
     {
         return color + ", radius " + radius;
     }
-
     public float intoMeters()
     {
         return radius / 100f;
