@@ -31,10 +31,6 @@ public class Author
     @Override
     public String toString()
     {
-        return "Author{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", gender=" + gender +
-                '}';
+        return this.name + '(' + this.gender + ") at " + this.email;
     }
 }
