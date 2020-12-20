@@ -1,0 +1,16 @@
+package ru.mirea.pr10.ex3;
+
+public class CreateMusicDocument implements ICreateDocument
+{
+    @Override
+    public IDocument createNew()
+    {
+        return new MusicDocument();
+    }
+
+    @Override
+    public IDocument createOpen()
+    {
+        return new MusicDocument();
+    }
+}
